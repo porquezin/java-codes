@@ -11,15 +11,6 @@ public class agenda {
         boolean isRuning = true;
         ArrayList<Contatos> contatosList = new ArrayList<>();
 
-        // testes
-        {
-            contatosList.add(new Contatos("test", "test2", "test3", 98123123, id));
-            id++;
-            contatosList.add(new Contatos("test", "test2", "test3", 98123123, id));
-            id++;
-        }
-        //
-
         while (isRuning) {
             int chooseId;
 
